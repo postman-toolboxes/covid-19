@@ -46,8 +46,34 @@ layout: default
          <p class="collection__end_p">Some of the Postman collections published as part of this toolbox use Postman Visualizer to help make sense of the data returned from APIs.</p>
       </div>
       <div class="col-md-12">
+        {% include visualization-listing.html %}
+      </div>
+      <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://learning.postman.com/docs/sending-requests/visualizer/">Learn More About Visualizer</a></div>
+   </div>
+</div>
 
+<div class="collection__wrapper">
+   <div class="container">
 
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Resources Provided Across These {{ site.data.apis.apis | size }} API Collections</h2>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        {% include tag-listing.html %}
+      </div>
+      <br><br><br>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
+         <h2>Something</h2>
+         <p class="collection__end_p">Not sure what.</p>
       </div>
       <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://learning.postman.com/docs/sending-requests/visualizer/">Learn More About Visualizer</a></div>
    </div>
@@ -85,5 +111,34 @@ layout: default
          <p class="collection__end_p">This is a toolbox of APIs that runs as a website using GitHub pages, providing a simple, open source, and community driven approach to crowdsourcing and evolving a curated list of APIs, with accompanying documentation and Postman collections to help get developers started.</p>
       </div>
       <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://github.com/postmanlabs/covid-19-apis">Join the Conversation on GitHub</a></div>
+   </div>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Stories from the Toolbox</h2>
+        </div>
+      </div>
+
+      <div>
+        {% for post in site.posts limit:4 %}
+          <div class="row collection">
+            <div class="col-md-7">
+               <div class="row collection__meta">
+                  <div class="col-12 collection__title">{{ post.title }} (<span style="font-size: 18px;">{{ post.date | date_to_string }}</span>)</div>
+                  <div class="col-12 collection__description">{{ post.excerpt | strip_html | strip_newlines | truncate: 175 }}</div>
+               </div>
+            </div>
+            <div class="col-md-5 collection_cta">
+              <a class="landing btn btn__secondary-light" href="{{ post.url }}">View Post</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <br><br><br>
+
    </div>
 </div>
