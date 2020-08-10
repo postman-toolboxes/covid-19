@@ -1,7 +1,7 @@
 title: Postman COVID-19 API Resource Center
 description: During the present novel coronavirus (COVID-19) pandemic, those on the front lines—including health care professionals, researchers, and government experts—need quick, easy access to real-time critical data. This type of information exchange is what APIs do best, and as an API-first company, Postman is committed to providing whatever assistance we can in this area.
 image: https://postman-toolboxes.s3.amazonaws.com/assets/covid-19.png
-url: https://postman-toolboxes.github.io/covid-19s
+url: https://postman-toolboxes.github.io/covid-19
 email: covid-19@postman.com
 
 github_user: postman-toolboxes
