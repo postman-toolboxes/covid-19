@@ -1,15 +1,31 @@
 {% for api in index.apis %}
+
+  {% assign postman_docs = "none" %}
+  {% assign sources = "none" %}
+  {% assign sources_url = "none" %}
+  {% assign apimetrics_casc = "none" %}
+  {% assign apimetrics_url = "none" %}
   {% assign postman_docs = "none" %}
   {% assign postman_run = "none" %}
   {% assign github_url = "none" %}
   {% assign twitter_url = "none" %}
   {% assign rating = 0 %}
+
   {% for property in api.properties %}
+
     {% if property.type == 'x-postman-documentation' %}{% assign postman_docs = property.url %}{% endif %}
     {% if property.type == 'x-run-in-postman' %}{% assign postman_run = property.url %}{% endif %}
     {% if property.type == 'x-github' %}{% assign github_url = property.url %}{% endif %}
     {% if property.type == 'x-twitter' %}{% assign twitter_url = property.url %}{% endif %}
     {% if property.type == 'x-rating' %}{% assign rating = property.x-data.rating %}{% endif %}
+    {% if property.type == 'x-api-expert-casc' %}
+      {% assign apimetrics_casc = property.x-data %}
+      {% assign apimetrics_url = property.url %}
+    {% endif %}
+    {% if property.type == 'x-sources' %}
+      {% assign sources = property.x-data.sources %}
+      {% assign sources_url = property.url %}
+    {% endif %}
   {% endfor %}
 
   {% if rating >= rating_bottom %}
@@ -26,6 +42,37 @@
           <a class="landing btn btn__secondary-light" href="{{ postman_docs }}">Documentation</a>
           <a class="btn btn__primary" href="{{ postman_run }}">Run in Postman</a>
         </div>
+
+        {% if apimetrics_casc != "none" %}
+        <div class="col-md-7">
+           <div class="row collection__meta">
+             <table style="width: 100%; font-size: 14px;">
+              <tr>
+                <td width="170"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/apimetrics/apimetrics-logo.png" width="170" style="padding: 3px;"></td>
+                <td><strong>CASC Score:</strong> {{ apimetrics_casc.casc }}</td>
+                <td><strong>Pass Rate:</strong> {{ apimetrics_casc.passRate }}</td>
+                <td><strong>Outliers:</strong> {{ apimetrics_casc.outliers }}</td>
+                <td><strong>Median Latency:</strong> {{ apimetrics_casc.medianLatency }}</td>
+                <td><a href="{{ apimetrics_url }}" target="_blank">Details</td>
+              </tr>
+             </table>
+           </div>
+        </div>
+        {% endif %}
+
+        {% if sources != "none" %}
+          <div class="col-md-7">
+           <div class="row collection__meta">
+             <div class="col-12 collection__description"><strong>Sources:</strong></div>
+             <ul>
+               {% for source in sources %}
+                  <li><a href="{{ source.url }}">{{ source.name }}</a></li>
+               {% endfor %}
+             </ul>
+           </div>
+        </div>
+        {% endif %}
+
       </div>
     {% endif %}
   {% endif %}

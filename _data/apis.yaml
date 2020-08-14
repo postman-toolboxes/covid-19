@@ -4,6 +4,8 @@ description: During the present novel coronavirus (COVID-19) pandemic, those on 
 image: assets/images/covid-19.png
 tags:
 - COVID-19
+- Postman
+- Coronavirus
 created: '2020-08-07'
 modified: '2020-08-07'
 url: apis.json
@@ -93,6 +95,19 @@ apis:
   - type: x-rating
     x-data:
       rating: 8
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 9.10
+      passRate: 99.98%
+      outliers: 1.13%
+      medianLatency: 240 ms
+  - type: x-sources
+    url: https://github.com/disease-sh/API#sources
+    x-data:
+      sources:
+        - name: The COVID Tracking Project
+          url: https://covidtracking.com/data
   contact:
   - FN: The COVID Tracking Project
     email: covid-19@postman.com
@@ -115,6 +130,13 @@ apis:
   - type: x-rating
     x-data:
       rating: 6
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 6.61
+      passRate: 89.00%
+      outliers: 12.53%
+      medianLatency: 788 ms
   contact:
   - FN: Covid19api.com
     email: covid-19@postman.com
@@ -160,6 +182,41 @@ apis:
   - type: x-rating
     x-data:
       rating: 8
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 9.13
+      passRate: 99.97%
+      outliers: 1.50%
+      medianLatency: 356 ms
+  - type: x-sources
+    url: https://github.com/disease-sh/API#sources
+    x-data:
+      sources:
+        - name: Worldometer
+          url: https://www.worldometers.info/coronavirus/
+        - name: COVID-19 Time Series Summary
+          url: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series
+        - name: Coronavirus (Covid-19) Data in the United States
+          url: https://github.com/nytimes/covid-19-data
+        - name: COVID-19 Mobility Data Aggregator. Scraper of Google, Apple and Waze COVID-19 Mobility Reports
+          url: https://github.com/ActiveConclusion/COVID19_mobility
+        - name: Coronavirus disease (COVID-19) Outbreak update
+          url: https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
+        - name: Dati COVID-19 Italia
+          url: https://github.com/pcm-dpc/COVID-19
+        - name: Aktueller Lage-/Situationsbericht des RKI zu COVID-19
+          url: https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/Gesamt.html
+        - name: Amtliches Dashboard COVID19
+          url: https://info.gesundheitsministerium.at/
+        - name: Ministry of Health and Family Welfare for Government of India
+          url: https://www.mohfw.gov.in/
+        - name: COVID-19 Nigeria
+          url: https://covid19.ncdc.gov.ng/
+        - name: SARS-CoV-2 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
+          url: https://github.com/openZH/covid_19/
+        - name: GOV.UK Coronavirus (COVID-19) in the UK
+          url: https://coronavirus.data.gov.uk
   contact:
   - FN: NovelCOVID API
     email: covid-19@postman.com
@@ -179,6 +236,25 @@ apis:
   - type: x-rating
     x-data:
       rating: 3
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 8.75
+      passRate: 99.97%
+      outliers: 3.13%
+      medianLatency: 573 ms
+  - type: x-sources
+    url: https://www.nubentos.com/covid-19-information/
+    x-data:
+      sources:
+        - name: World Health Organization (WHO)
+          url: https://www.who.int/
+        - name: The US Centers for Disease Control and Prevention (CDC)
+          url: https://www.cdc.gov/
+        - name: The Chinese Centre for Disease Control and Prevention (ECDC)
+          url: http://www.chinacdc.cn/en/
+        - name: China’s National Health Commission
+          url: http://en.nhc.gov.cn/
   contact:
   - FN: Nubentos.com
     email: covid-19@postman.com
@@ -197,6 +273,13 @@ apis:
   - type: x-rating
     x-data:
       rating: 4
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 7.01
+      passRate: 99.92%
+      outliers: 1.79%
+      medianLatency: 288 ms
   contact:
   - FN: TheVirusTracker.com
     email: covid-19@postman.com
@@ -253,6 +336,13 @@ apis:
   - type: x-rating
     x-data:
       rating: 3
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 8.38
+      passRate: 100.00%
+      outliers: 0.55%
+      medianLatency: 2236 ms
   contact:
   - FN: Unknown
     email: covid-19@postman.com
@@ -272,6 +362,13 @@ apis:
   - type: x-rating
     x-data:
       rating: 3
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 9.11
+      passRate: 100.00%
+      outliers: 1.69%
+      medianLatency: 336 ms
   contact:
   - FN: Unknown
     email: covid-19@postman.com
@@ -350,6 +447,19 @@ apis:
   - type: x-rating
     x-data:
       rating: 3
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 8.11
+      passRate: 100.00%
+      outliers: 3.85%
+      medianLatency: 939 ms
+  - type: x-sources
+    url: https://github.com/disease-sh/API#sources
+    x-data:
+      sources:
+        - name: Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE)
+          url: https://systems.jhu.edu/
   contact:
   - FN: Unknown
     email: covid-19@postman.com
@@ -409,6 +519,13 @@ apis:
   - type: x-rating
     x-data:
       rating: 5
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 88.58
+      passRate: 99.95%
+      outliers: 3.31%
+      medianLatency: 260 ms
   contact:
   - FN: Unknown
     email: covid-19@postman.com
@@ -778,6 +895,13 @@ apis:
   - type: x-rating
     x-data:
       rating: 7
+  - type: x-api-expert-casc
+    url: https://www.api.expert/industry/covid19/
+    x-data:
+      casc: 8.97
+      passRate: 99.92%
+      outliers: 1.79%
+      medianLatency: 288 ms
   contact:
   - FN: ECDC
     email: covid-19@postman.com
@@ -824,45 +948,6 @@ apis:
       rating: 7
   contact:
   - FN: Unknown
-    email: covid-19@postman.com
-    x-Tweets: getpostman
-
-- name: CDC Cases & Deaths (ScrAPI)
-  description: Scraping the COVID-19 cases and deaths from the CDC home page, converting the data to JSON, and saving it within an environment.
-  tags:
-  - CDC
-  - Cases
-  - Deaths
-  - Scraping
-  properties:
-  - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkTz?version=latest
-  - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/8854915-39d062d5-65d1-4b0f-9c1c-30e885200584-SzS7NkTz
-  - type: x-rating
-    x-data:
-      rating: 8
-  contact:
-  - FN: Postman
-    email: covid-19@postman.com
-    x-Tweets: getpostman
-
-- name: CDC Testing (ScrAPI)
-  description: Scraping the number of specimens tested for SARS CoV-2 by CDC labs and U.S. public health laboratories from the CDC website.
-  tags:
-  - CDC
-  - Testing
-  - Scraping
-  properties:
-  - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7R6gm?version=latest
-  - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/8854915-f02de2b1-ccef-4719-9af5-a48f6b3b27fe-SzS7R6gm
-  - type: x-rating
-    x-data:
-      rating: 8
-  contact:
-  - FN: Postman
     email: covid-19@postman.com
     x-Tweets: getpostman
 
