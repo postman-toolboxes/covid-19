@@ -15,16 +15,19 @@
 
       <meta data-react-helmet="true" property="og:title" content="Postman COVID-19 API Resource Center">
       <meta data-react-helmet="true" property="og:description" content="During the present novel coronavirus (COVID-19) pandemic, those on the front lines—including health care professionals, researchers, and government experts—need quick, easy access to real-time critical data. This type of information exchange is what APIs do best, and as an API-first company, Postman is committed to providing whatever assistance we can in this area.">
-      <meta data-react-helmet="true" property="og:image" content="https://assets.getpostman.com/covid-19/postman-covid-19-social-image.jpg">
-      <meta data-react-helmet="true" property="og:url" content="https://covid-19-apis.postman.com/">
+      <meta data-react-helmet="true" property="og:image" content="https://postman-toolboxes.s3.amazonaws.com/assets/covid-19.png">
+      <meta data-react-helmet="true" property="og:url" content="https://postman-toolboxes.postman.com/covid-19">
       <meta data-react-helmet="true" property="og:type" content="website">
 
       <meta data-react-helmet="true" name="twitter:card" content="summary_large_image">
-      <meta data-react-helmet="true" property="twitter:image" content="https://assets.getpostman.com/covid-19/postman-covid-19-social-image.jpg">
+      <meta data-react-helmet="true" property="twitter:image" content="https://postman-toolboxes.s3.amazonaws.com/assets/covid-19.png">
       <meta data-react-helmet="true" name="twitter:creator" content="Postman">
-      <meta data-react-helmet="true" name="twitter:title" content="Postman COVID-19 API Resource Center | List of APIs and Blueprints">
-      <meta data-react-helmet="true" name="twitter:description" content="View our growing list of novel coronavirus (COVID-19) API collections to help fight this pandemic. And learn how to use our blueprints for quickly deploying new APIs from existing data sets.">
+      <meta data-react-helmet="true" name="twitter:title" content="Postman COVID-19 API Resource Center">
+      <meta data-react-helmet="true" name="twitter:description" content="During the present novel coronavirus (COVID-19) pandemic, those on the front lines—including health care professionals, researchers, and government experts—need quick, easy access to real-time critical data. This type of information exchange is what APIs do best, and as an API-first company, Postman is committed to providing whatever assistance we can in this area.">
       <meta data-react-helmet="true" name="twitter:site" content="@getpostman">
+
+      <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://kinlane-productions.s3.amazonaws.com/js/jquery.awesomeCloud-0.2.min.js"></script>
 
       <link rel="icon" href="https://postman-toolboxes.s3.amazonaws.com/assets/favicon-32x32.png">
 
@@ -1688,126 +1691,781 @@
 
 
 
-<style>
-.tag-column {
-  float: left;
-  width: 25%;
-  text-align: left;
-}
-.tag-row{
-  width: 80%;
-}
-.tag-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
 <center>
 <div class="tag-row" align="center">
+
+  <style type="text/css">
+    .wordcloud {
+    border: 1px solid #FFF;
+    height: 4in;
+    width: 100%;
+    padding: 25px;
+    margin: 10px;
+    }
+  </style>
+
+  <div id="wordcloud" class="wordcloud">
   
-    <div class="tag-column">Cases</div>
   
-    <div class="tag-column">Citizen</div>
+    
+      
+        
+        <span data-weight="18">News</span>
+      
+    
+      
+        
+        <span data-weight="18">Information</span>
+      
+    
+      
+        
+        <span data-weight="18">Federal Government</span>
+      
+    
   
-    <div class="tag-column">Counties</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Countries</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Country</div>
+    
+      
+        
+        <span data-weight="18">Cases</span>
+      
+    
+      
+        
+        <span data-weight="18">Deaths</span>
+      
+    
+      
+        
+        <span data-weight="18">Pending</span>
+      
+    
+      
+        
+        <span data-weight="18">Tests</span>
+      
+    
+      
+        
+        <span data-weight="18">Recovered</span>
+      
+    
+      
+        
+        <span data-weight="18">Hospitalized</span>
+      
+    
+      
+        
+        <span data-weight="18">ICU</span>
+      
+    
+      
+        
+        <span data-weight="18">Ventilators</span>
+      
+    
+      
+        
+        <span data-weight="18">States</span>
+      
+    
+      
+        
+        <span data-weight="18">Country</span>
+      
+    
+      
+        
+        <span data-weight="18">Press</span>
+      
+    
   
-    <div class="tag-column">County Government</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">World</span>
+      
+    
+      
+      
+    
   
-    <div class="tag-column">County Health Departments</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Critical</span>
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Critical</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Counties</span>
+      
+    
+      
+        
+        <span data-weight="18">Countries</span>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Deaths</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Differences</div>
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Drugs</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Energy</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Federal Government</div>
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Foreign</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Gender</div>
+    
+      
+        
+        <span data-weight="18">Research</span>
+      
+    
   
-    <div class="tag-column">Governors</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">GraphQL</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Citizen</span>
+      
+    
+      
+        
+        <span data-weight="18">Foreign</span>
+      
+    
   
-    <div class="tag-column">Hospitalizations</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Hospitalized</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Hospitals</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">ICU</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Phone Numbers</span>
+      
+    
+      
+        
+        <span data-weight="18">Testing Locations</span>
+      
+    
   
-    <div class="tag-column">Information</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">News</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Pending</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Phone Numbers</div>
+    
+      
+        
+        <span data-weight="18">Drugs</span>
+      
+    
   
-    <div class="tag-column">Press</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Provinces</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Recovered</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Severity</span>
+      
+    
   
-    <div class="tag-column">Regions</div>
+    
+      
+      
+    
   
-    <div class="tag-column">Registry</div>
+    
+      
+        
+        <span data-weight="18">Energy</span>
+      
+    
   
-    <div class="tag-column">Reporting</div>
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Social</span>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Research</div>
+    
+      
+        
+        <span data-weight="18">Tracing</span>
+      
+    
+      
+        
+        <span data-weight="18">Reporting</span>
+      
+    
   
-    <div class="tag-column">Scraping</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Timelines</span>
+      
+    
+      
+        
+        <span data-weight="18">Differences</span>
+      
+    
   
-    <div class="tag-column">Search</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Scraping</span>
+      
+    
+      
+        
+        <span data-weight="18">Visualizations</span>
+      
+    
   
-    <div class="tag-column">Severity</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Gender</span>
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Social</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Regions</span>
+      
+    
   
-    <div class="tag-column">Social Media</div>
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Provinces</span>
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Hospitalizations</span>
+      
+    
   
-    <div class="tag-column">State Government</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Hospitals</span>
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Travel Alerts</span>
+      
+    
   
-    <div class="tag-column">State Health Departments</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">States</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Time Series</span>
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Testing Locations</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">GraphQL</span>
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Tests</div>
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Registry</span>
+      
+    
+      
+        
+        <span data-weight="18">Social Media</span>
+      
+    
   
-    <div class="tag-column">Time Series</div>
+    
+      
+      
+    
   
-    <div class="tag-column">Timelines</div>
+    
+      
+        
+        <span data-weight="18">Tweets</span>
+      
+    
+      
+        
+        <span data-weight="18">Search</span>
+      
+    
   
-    <div class="tag-column">Tracing</div>
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">State Government</span>
+      
+    
   
-    <div class="tag-column">Travel Alerts</div>
+    
+      
+      
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">Governors</span>
+      
+    
   
-    <div class="tag-column">Tweets</div>
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">State Health Departments</span>
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Ventilators</div>
+    
+      
+      
+    
+      
+        
+        <span data-weight="18">County Health Departments</span>
+      
+    
+      
+        
+        <span data-weight="18">County Government</span>
+      
+    
   
-    <div class="tag-column">Veterans</div>
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
   
-    <div class="tag-column">Visualizations</div>
+    
+      
+        
+        <span data-weight="18">Veterans</span>
+      
+    
+      
+      
+    
   
-    <div class="tag-column">World</div>
-  
+  </div>
+
+  <script>
+  $(document).ready(function(){
+    $("#wordcloud").awesomeCloud({
+    "size" : {
+    "grid" : 15,
+    "factor" : 2},
+    "options" : {
+    "color" : "random-dark",
+    "rotationRatio" : 0},
+    "font" : "Times New Roman, Times, serif",
+    "shape" : "circle"});
+    });
+  </script>
+
 </div>
 </center>
 
