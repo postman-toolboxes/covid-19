@@ -782,7 +782,7 @@ apis:
     x-Tweets: getpostman
 
 - name: COVID-19 Rich Data Services
-  description: Given the critical need for timely access to high quality data around COVID-19, MTNA is making our Rich Data Service platform publicly and freely available for the publication of primary and contextual COVID-19 related data, to support researchers, data analysts, developers, and public users.
+  description: The COVID-19 Rich Data Services API from MTNA offers curated, high-quality data and metadata from official and popular Coronavirus datasets from around the world. The catalog is updated daily and is constantly growing.
   tags:
   - Cases
   - Deaths
@@ -812,9 +812,33 @@ apis:
   - type: x-rating
     x-data:
       rating: 9
+  - type: x-sources
+    url: https://covid19.richdataservices.com/rds-explorer/data-product-selection
+    x-data:
+      sources:
+        - name: The COVID Tracking Project
+          url: https://covidtracking.com/data
+        - name: Google COVID-19 Community Mobility Reports
+          url: https://www.google.com/covid19/mobility/
+        - name: Johns Hopkins University CSSE
+          url: https://github.com/CSSEGISandData/COVID-19
+        - name: SBA Paycheck Protection Program Loan Level Data
+          url: https://home.treasury.gov/policy-issues/cares-act/assistance-for-small-businesses/sba-paycheck-protection-program-loan-level-data
+        - name: New York Department of Health
+          url: https://health.data.ny.gov/Health/New-York-State-Statewide-COVID-19-Testing/xdss-u53e/data
+        - name: Ohio Department of Health
+          url: https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards
+        - name: Tennessee Department of Health
+          url: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html
+        - name: Knox County, Tennessee Department of Health
+          url: Tennessee Department of Health
+        - name: Statistics Canada
+          url: https://www.statcan.gc.ca/eng/help/microdata
+        - name: Government of Canada COVID-19 - Province Level Information
+          url: https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
   contact:
   - FN: Metadata Technology North America Inc.
-    email: mtna@mtna.us
+    email: rds.support@mtnaus.atlassian.net
     x-Tweets: mtnaus
 
 - name: COVID-19 Global Tracker
