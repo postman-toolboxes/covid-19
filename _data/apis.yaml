@@ -796,17 +796,17 @@ apis:
     url: https://app.getpostman.com/run-collection/2220438-d3ac9594-1c67-4176-b103-0c8238ad7aba-SzYevv9u
   - type: x-postman-visualizer
     x-data:
-      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/covid-19-rich-data-service/Visualize+COVID-19+cases+over+time+in+the+U.S..png
+      thumbnail: https://postman-toolboxes2.s3.amazonaws.com/collections/covid-19-rich-data-service/Visualize+COVID-19+cases+over+time+in+the+U.S..png
       title: Visualize COVID-19 cases over time in the U.S.
       url: https://documenter.getpostman.com/view/2220438/SzYevv9u?version=latest#7310d8a6-43a0-4e44-9313-4639f57e1b38
   - type: x-postman-visualizer
     x-data:
-      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/covid-19-rich-data-service/Visualize+positive+and+total+COVID-19+tests+per+state.png
+      thumbnail: https://postman-toolboxes2.s3.amazonaws.com/collections/covid-19-rich-data-service/Visualize+positive+and+total+COVID-19+tests+per+state.png
       title: Visualize positive and total COVID-19 tests per state
       url: https://documenter.getpostman.com/view/2220438/SzYevv9u?version=latest#e69c57cd-65cb-4a06-bd2c-1f87839250a2
   - type: x-postman-visualizer
     x-data:
-      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/covid-19-rich-data-service/Visualize+confirmed+cases+in+2020+for+Canada%2C+China%2C+Spain%2C+Italy%2C+and+USA.png
+      thumbnail: https://postman-toolboxes2.s3.amazonaws.com/collections/covid-19-rich-data-service/Visualize+confirmed+cases+in+2020+for+Canada%2C+China%2C+Spain%2C+Italy%2C+and+USA.png
       title: Visualize confirmed cases in 2020 for Canada, China, Spain, Italy, and USA
       url: https://documenter.getpostman.com/view/2220438/SzYevv9u?version=latest#735f6f08-87be-4c36-a0d3-9aa85d912148
   - type: x-rating
