@@ -4,7 +4,7 @@ image: https://postman-toolboxes2.s3.amazonaws.com/assets/covid-19.png
 url: https://postman-toolboxes2.github.io/covid-19
 email: covid-19@postman.com
 
-github_user: postman-toolboxes2
+github_user: postman-toolboxes
 github_repo: covid-19
 github_branch: master
 
