@@ -72,6 +72,44 @@ layout: default
 <div class="container-fluid">
    <div class="row blurb text-center">
       <div class="col-md-12">
+         <h2>We Need Your Help!</h2>
+         <p class="collection__end_p">What other types of data and digital resources would help fight COVID-19? We'd love to hear your ideas about what would help businesses, scientists, researchers, government, and the average person when it comes to joining in the fight to end the COVID-19 pandemic. Feel free to submit a Postman collection for your API using the GitHub issues for this project, but before you do make sure to review the submission template, helping demonstrate how you can invest in your collection to make it better serve the COVID-19 fight.
+      </div>
+      <div class="col-md-12 blurb_padding">
+        <a class="btn btn__secondary-light" href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}">Submit an Issue</a>
+        <a class="btn btn__secondary-light" href="https://documenter.getpostman.com/view/2220438/T1LMi7NK?version=latest">Submission Template</a>
+      </div>
+   </div>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Twitter API Collections</h2>
+        </div>
+      </div>
+
+      <div>
+        {% assign index = site.data.apis %}
+        {% assign rating_top = 6 %}
+        {% assign rating_bottom = 6 %}
+        {% include api-listing.html %}
+      </div>
+
+      <div class="row">
+         <div class="col-md-12">
+            <p class="collection__end">To submit an API to add to the list, please email us at<br><span><a class="link-style" href="mailto:{{ site.email }}">{{ site.email }}</a></span>or<span><a href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}/issues" class="link-style"> submit an issue on Github</a>.</span></p>
+         </div>
+      </div>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
          <h2>Thank You To Our Partners For Helping Make This Happen!</h2>
       </div>
       <div class="col-md-12">
@@ -92,7 +130,7 @@ layout: default
 
       <div>
         {% assign index = site.data.apis %}
-        {% assign rating_top = 7 %}
+        {% assign rating_top = 5 %}
         {% assign rating_bottom = 1 %}
         {% include api-listing.html %}
       </div>
