@@ -129,7 +129,7 @@ apis:
     url: https://app.getpostman.com/run-collection/10808728-1e29ed29-066c-4494-ae5d-a6174a8fc551-SzS8rjbc
   - type: x-rating
     x-data:
-      rating: 6
+      rating: 5
   - type: x-api-expert-casc
     url: https://www.api.expert/industry/covid19/
     x-data:
@@ -877,7 +877,7 @@ apis:
     url: https://app.getpostman.com/run-collection/11073859-fadc17f6-a393-457d-bb65-752d87173006-Szt5fAr3
   - type: x-rating
     x-data:
-      rating: 6
+      rating: 5
   contact:
   - FN: Unknown
     email: covid-19@postman.com
