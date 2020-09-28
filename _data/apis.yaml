@@ -1142,6 +1142,29 @@ apis:
     email: covid-19@postman.com
     x-Tweets: postman
 
+- name: Global Coronavirus API
+  description: The Coronavirus Current and Historical Data API is developed by the team at Cloudeya Limited to help data scientists, government agencies, health professionals, and the public effectively understand and respond to Coronavirus. Likewise, independent developers and companies can use it to build interactive data visualization dashboard, applications (mobile and web) and integrate it into their internal tools.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/covid-19/cloudeya-logo.png
+  tags:
+  - Global
+  - Cases
+  - Deaths
+  - Recovered
+  - Historical
+  - Time Series
+  properties:
+  - type: x-postman-documentation
+    url: https://www.covid19api.dev/
+  - type: x-run-in-postman
+    url: https://app.getpostman.com/run-collection/2488642-c583c2b0-8809-430c-bf1c-7a1121805ec3-TVCh1ThY
+  - type: x-rating
+    x-data:
+      rating: 8
+  contact:
+  - FN: Postman
+    email: covid-19@postman.com
+    x-Tweets: postman
+
 maintainers:
 - FN: Postman
   x-Tweets: getpostman
