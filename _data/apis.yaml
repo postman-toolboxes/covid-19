@@ -991,7 +991,7 @@ apis:
     url: https://app.getpostman.com/run-collection/8854915-6dc5390c-0f79-4295-a38f-61fa3ec00460-SzS7NkEm
   - type: x-rating
     x-data:
-      rating: 8
+      rating: 5
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -1008,7 +1008,7 @@ apis:
     url: https://app.getpostman.com/run-collection/8854915-397a4c98-81ac-44c2-a99b-926f9d030dc2-SzS7NkEp
   - type: x-rating
     x-data:
-      rating: 8
+      rating: 5
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -1139,7 +1139,7 @@ apis:
     url: https://app.getpostman.com/run-collection/1034536-c8e70d90-c6ff-4536-a16c-509bda547aa4
   - type: x-rating
     x-data:
-      rating: 8
+      rating: 5
   contact:
   - FN: Postman
     email: covid-19@postman.com
