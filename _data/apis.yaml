@@ -71,6 +71,7 @@ apis:
 
 - name: The COVID Tracking Project
   description: The COVID Tracking Project collects information from 50 US states, the District of Columbia, and 5 other US territories to provide the most comprehensive testing data we can collect for the novel coronavirus, SARS-CoV-2.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/covid-19/covid-tracking-project-logo.jpg
   tags:
   - Cases
   - Deaths
@@ -165,6 +166,7 @@ apis:
 
 - name: NovelCOVID API
   description: An API for current cases and more information about COVID-19.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/covid-19/novelcovid-api-disease-sh.png
   tags:
   - Cases
   - Recovered
@@ -783,6 +785,7 @@ apis:
 
 - name: COVID-19 Rich Data Services
   description: The COVID-19 Rich Data Services API from MTNA offers curated, high-quality data and metadata from official and popular Coronavirus datasets from around the world. The catalog is updated daily and is constantly growing.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-2020-election/metdata-technology-north-america.png
   tags:
   - Cases
   - Deaths
