@@ -29,7 +29,7 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Centers for Disease Control and Prevention (CDC) Information
   description: Tweets and YouTube API feeds for CDC, and their RSS feeds for pulling information.
@@ -48,7 +48,7 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: European Centre for Disease Prevention and Control (ECDC)
   description: Tweets and YouTube API feeds for ECDC, and their RSS feeds for pulling information.
@@ -67,7 +67,7 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: The COVID Tracking Project
   description: The COVID Tracking Project collects information from 50 US states, the District of Columbia, and 5 other US territories to provide the most comprehensive testing data we can collect for the novel coronavirus, SARS-CoV-2.
@@ -112,7 +112,7 @@ apis:
   contact:
   - FN: The COVID Tracking Project
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Coronavirus COVID19 API (covid19api.com)
   description: An API for current cases and more information about COVID-19.
@@ -141,7 +141,7 @@ apis:
   contact:
   - FN: Covid19api.com
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID19-Tracker-REST API
   description: An API for current cases and more information about.
@@ -162,7 +162,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: NovelCOVID API
   description: An API for current cases and more information about COVID-19.
@@ -222,7 +222,7 @@ apis:
   contact:
   - FN: NovelCOVID API
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 API (nubentos.com)
   description: The COVID-19 API provides information related with the case of pneumonia associated with the COVID-19 coronavirus.
@@ -260,7 +260,7 @@ apis:
   contact:
   - FN: Nubentos.com
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Coronavirus Data API (thevirustracker.com)
   description: Provides global stats, country stats, full timeline, and country timeline for the coronavirus.
@@ -285,7 +285,7 @@ apis:
   contact:
   - FN: TheVirusTracker.com
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Health API - COVID-19 (health-api.com)
   description: Global Coronavirus statistics by country and state.
@@ -304,7 +304,7 @@ apis:
   contact:
   - FN: Health-API.com
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Coronavirus Smartable (smartable.ai)
   description: The coronavirus stats and news API offers latest and historic COVID-19 stats and news information per country or state.
@@ -323,7 +323,7 @@ apis:
   contact:
   - FN: Smartable.ai
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: New South Wales Coronavirus Cases
   description: New South Wales Coronavirus disease 2019 (COVID-19) cases.
@@ -348,7 +348,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 Finnhub API
   description: Get real-time updates on the number of COVID-19 (Corona virus) cases in the US with a state-by-state breakdown. Data is sourced from CDC and reputable sources.
@@ -374,7 +374,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 Elsevier Research API
   description: A research dataset search engine API (indexing datasets from 60+ scientific data repositories worldwide).
@@ -391,7 +391,7 @@ apis:
   contact:
   - FN: Elsevier
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID19-India API
   description: A volunteer-driven API for COVID-19 stats & patient tracing in India (Unofficial).
@@ -412,7 +412,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Covid India API
   description: REST API to track Coronavirus cases in India on state level.
@@ -433,7 +433,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 Statistics API
   description: Based on public data by Johns Hopkins CSSE
@@ -465,7 +465,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID19 -India- API(By Adhikansh Mittal)
   description: The data is used from the official website of the Ministry of Health and Family Welfare of India.[official website]
@@ -484,7 +484,7 @@ apis:
   contact:
   - FN: Adhikansh Mittal
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Chile Corona API
   description: API to obtain data about coronavirus infections (COVID-19) in Chile.
@@ -503,7 +503,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID19 India Data API
   description: COVID19India API provides you with the details of the Country Cases and the State Cases as per the data updated in the MyGOV website.
@@ -531,7 +531,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Novel Coronavirus COVID-19 API
   description: This is an API for the Novel Coronavirus (COVID-19) Statistics. Source of data for this API is Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) Github Repository.
@@ -550,7 +550,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 India Cases API
   description: COVID-19 India cases - statewise (source - Ministry Of Health and Family Welfare, India).
@@ -569,7 +569,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Coronavirus (COVID-19) Outbreak API for Developers
   description: Provides confirmed cases by country and region, province and state, from CDC, ECDC, WHO, Wikipedia and NOVELCovid.
@@ -588,7 +588,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Librairy API
   description: An open web service to identify drugs mentioned in a text and classify them according to the Anatomical Therapeutic Chemical (ATC) classification system and the Concept Unique Identifiers (CUI) described in the Unified Medical Language System (UMLS).
@@ -605,7 +605,7 @@ apis:
   contact:
   - FN: Librairy
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 Nigeria API
   description: Based on public data from Nigeria Centre for Disease Control.
@@ -624,7 +624,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: UK Coronavirus Data API
   description: A live COVID-19 data scraper API provide function with history, and confirmed cases geolocation.
@@ -643,7 +643,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 Japan Web API
   description: Web API to get COVID-19(coronavirus) information of each prefecture in Japan.
@@ -663,7 +663,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 Testing Locations in Australia
   description: A single collection with a request for a list of coronavirus testing locations in Australia.
@@ -680,7 +680,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: US Energy Information Administration
   description: EIA API accesses open data for energy sources and consumption in the US.
@@ -697,7 +697,7 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 India Tracker
   description: This API gives you the latest COVID-19 State wise and District wise data in India. This API is very simple to use and create awesome Portal.
@@ -719,7 +719,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Infection Alert System
   description: Provides a personal risk score and international and multi-level suspicious contact tracking without sending any personal data to the servers.
@@ -737,7 +737,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 API with Machine Learning Prediction
   description: The COVID-19 statistics collected from multiple sources and provided as an easy to use API. The data is then processed by Machine Learning algorithms to build disease spread prediction that is updated daily based on the recent data.
@@ -759,7 +759,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Coronavirus (COVID19) Tracker
   description: This Free API tracks actual Coronavirus (COVID-19) information about tested and infected people in multiple countries.
@@ -781,7 +781,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 Rich Data Services
   description: The COVID-19 Rich Data Services API from MTNA offers curated, high-quality data and metadata from official and popular Coronavirus datasets from around the world. The catalog is updated daily and is constantly growing.
@@ -842,7 +842,7 @@ apis:
   contact:
   - FN: Metadata Technology North America Inc.
     email: rds.support@mtnaus.atlassian.net
-    x-Tweets: mtnaus
+    x-twitter: mtnaus
 
 - name: COVID-19 Global Tracker
   description: This free API exposes all available regional data housed on Wikipedia. This collections serves data for these use-cases, Realtime global counts; total cases, recovered & deceased, Realtime counts across countries; total cases, recovered & deceased, Weekly (historical) data counts; total cases, recovered & deceased, Drill-down of regional data for a country by states, provinces, other.
@@ -863,7 +863,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Canadian COVID-19 API
   description: This is the API service for the COVID-19 Tracker Canada project. The goal is to provide fast access to the dataset maintained by the COVID-19 Tracker Canada team.
@@ -884,7 +884,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Coronatracker API
   description: CORONATRACKER.com is a community-based project powered by over 460 volunteers from across the globe, ranging from data scientists, medical professionals, UI/UX designers, fullstack developers, to the general public.
@@ -906,7 +906,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: ECDC World Wide Cases
   description: The downloadable data file is updated daily and contains the latest available public data on COVID-19. Public-use data files allows users to manipulate the data in a format appropriate for their analyses. Users of ECDC public-use data files must comply with data use restrictions to ensure that the information will be used solely for statistical analysis or reporting purposes.
@@ -932,7 +932,7 @@ apis:
   contact:
   - FN: ECDC
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Covidti API
   description: We want to provide a reliable and accurate API of coronavirus data. The data source are John Hopkins CSSE data for World and US and Wikipedia data for the US with county level cases Information. This API includes county level time-series for the U.S. and country level time-series for the World.
@@ -953,7 +953,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 REST & GraphQL API
   description: Access data on COVID19 through an easy API for free. Build dashboards, mobile apps or integrate in to other applications. Data is sourced from Johns Hopkins CSSE.
@@ -976,7 +976,7 @@ apis:
   contact:
   - FN: Unknown
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: US Digital Registry API
   description: An API for pulling federal government agencies and social media accounts.
@@ -995,7 +995,7 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: News API
   description: An aggregate news API for pulling news from across multiple news sources.
@@ -1012,10 +1012,11 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: COVID-19 Tweets Searches
   description: Tweets API search, with a handful of the common search COVID-19 search terms.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/twitter-logo.png
   tags:
   - Tweets
   - Search
@@ -1030,10 +1031,11 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Tweets Accounts for State Government in 50 US States
   description: State government Tweets accounts for all 50 states in the United States
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/twitter-logo.png
   tags:
   - Tweets
   - State Government
@@ -1048,10 +1050,11 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Tweets Accounts for State Governors in 50 US States
   description: State governor Tweets accounts for all 50 states in the United States.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/twitter-logo.png
   tags:
   - Tweets
   - State Government
@@ -1067,10 +1070,11 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Tweets Accounts for State Health Departments in 50 US States
   description: State health department Tweets accounts for all 50 states in the United States.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/twitter-logo.png
   tags:
   - Tweets
   - State Health Departments
@@ -1086,10 +1090,11 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: County Health Departments for All 50 US States
   description: A single collection with a request for each of the 50 states, pulling a listing of name, website, address, phone, email, Tweets, and facebook for all county health departments.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/twitter-logo.png
   tags:
   - Tweets
   - County Health Departments
@@ -1105,10 +1110,11 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Tweets Accounts for County Health Departments in all 50 US States
   description: The Tweets accounts for over 300 county health departments across 50 US States.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/twitter-logo.png
   tags:
   - Tweets
   - County Health Departments
@@ -1125,7 +1131,7 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: getpostman
+    x-twitter: getpostman
 
 - name: Department of Veteran Affairs (VA)
   description: A Veteran-centered API platform for securely accessing Veteran Affairs data.
@@ -1143,7 +1149,7 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: postman
+    x-twitter: postman
 
 - name: Global Coronavirus API
   description: The Coronavirus Current and Historical Data API is developed by the team at Cloudeya Limited to help data scientists, government agencies, health professionals, and the public effectively understand and respond to Coronavirus. Likewise, independent developers and companies can use it to build interactive data visualization dashboard, applications (mobile and web) and integrate it into their internal tools.
@@ -1166,9 +1172,9 @@ apis:
   contact:
   - FN: Postman
     email: covid-19@postman.com
-    x-Tweets: postman
+    x-twitter: postman
 
 maintainers:
 - FN: Postman
-  x-Tweets: getpostman
+  x-twitter: getpostman
   email: covid-19@postman.com
