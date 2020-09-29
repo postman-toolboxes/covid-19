@@ -1216,6 +1216,26 @@ apis:
     email: covid-19@postman.com
     x-twitter: postman
 
+- name: COVID API Philippines
+  description: Covid-19 Web API for Philippines from data collected by DOH using Node.js that automatically updates itself. A Web API doesn't use web scraping to fetch data from DOH website instead it collects the data from the csv file from DOH Google Drive. This means that even if DOH website changes this API will be able to maintain itself.
+  tags:
+  - Philippines
+  - Cases
+  - Regions
+  - Summary
+  properties:
+  - type: x-postman-documentation
+    url: https://documenter.getpostman.com/view/12463261/T1LV9jLU
+  - type: x-run-in-postman
+    url: 12463261-22d3071a-2982-4991-b199-f5de69df775a-T1LV9jLU
+  - type: x-rating
+    x-data:
+      rating: 3
+  contact:
+  - FN: Postman
+    email: covid-19@postman.com
+    x-twitter: postman
+
 maintainers:
 - FN: Postman
   x-twitter: getpostman
