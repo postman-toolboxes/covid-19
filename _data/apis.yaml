@@ -1227,10 +1227,30 @@ apis:
   - type: x-postman-documentation
     url: https://documenter.getpostman.com/view/12463261/T1LV9jLU
   - type: x-run-in-postman
-    url: 12463261-22d3071a-2982-4991-b199-f5de69df775a-T1LV9jLU
+    url: https://app.getpostman.com/run-collection/12463261-22d3071a-2982-4991-b199-f5de69df775a-T1LV9jLU
   - type: x-rating
     x-data:
       rating: 3
+  contact:
+  - FN: Postman
+    email: covid-19@postman.com
+    x-twitter: postman
+
+- name: COVID Response Simulator
+  description: The COVID Response Simulator is a localized, spreadsheet version of the public Covid Act Now (CAN) model. With it, you can take a powerful SEIR epidemiology model and customize it for your county to help plan your response to COVID. The inputs and assumptions in the simulator are modifiable and can be changed to reflect your local realities.
+  tags:
+  - States
+  - Counties
+  - CCases
+  properties:
+  - type: x-postman-documentation
+    url: https://documenter.getpostman.com/view/8854915/TVKJxa3r
+  - type: x-run-in-postman
+    url: https://app.getpostman.com/run-collection/8854915-015f723b-d905-4ff2-a453-5147f6850aa3-TVKJxa3r
+  - type: x-rating
+    x-data:
+      rating: 4
+
   contact:
   - FN: Postman
     email: covid-19@postman.com
