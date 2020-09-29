@@ -1193,6 +1193,29 @@ apis:
     email: covid-19@postman.com
     x-twitter: postman
 
+- name: Covid County Data
+  description: An assortment of COVID-19 related data, providing many different views, providing different snapshots of what is going when it comes to the virus.
+  tags:
+  - United States
+  - Global
+  - Economics
+  - Counties
+  - Historical
+  - Aggregate
+  - Snapshots
+  properties:
+  - type: x-postman-documentation
+    url: https://documenter.getpostman.com/view/10122604/TVCe29D4
+  - type: x-run-in-postman
+    url: https://app.getpostman.com/run-collection/10122604-d5fb8837-e3f6-4146-9067-a8e358b16fc1-TVCe29D4
+  - type: x-rating
+    x-data:
+      rating: 4
+  contact:
+  - FN: Postman
+    email: covid-19@postman.com
+    x-twitter: postman
+
 maintainers:
 - FN: Postman
   x-twitter: getpostman
