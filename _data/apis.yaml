@@ -1174,6 +1174,25 @@ apis:
     email: covid-19@postman.com
     x-twitter: postman
 
+- name: Covid Test Centers in US All 50 States
+  description: A simple API for pulling COVID-19 testing locations from across all 50 states across the US, allowing you to filter by each individual state.
+  tags:
+  - United States
+  - States
+  - Testing Locations
+  properties:
+  - type: x-postman-documentation
+    url: https://documenter.getpostman.com/view/11672223/TVCfV7fX#8ef25169-61be-649a-e013-a8160792a1a3
+  - type: x-run-in-postman
+    url: https://app.getpostman.com/run-collection/11672223-173351f4-ce87-99cc-2d63-1f277a3fb4cc-TVCfV7fX
+  - type: x-rating
+    x-data:
+      rating: 3
+  contact:
+  - FN: Postman
+    email: covid-19@postman.com
+    x-twitter: postman
+
 maintainers:
 - FN: Postman
   x-twitter: getpostman
